@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity{
                 integrator.initiateScan();
             }
         });
+
+        final Button csBtn = (Button) findViewById(R.id.csBtn);
+        csBtn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent i = new Intent(MainActivity.this, ContinuousCaptureActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
     // Get the results:
