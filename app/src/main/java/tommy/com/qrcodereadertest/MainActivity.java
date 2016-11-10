@@ -54,6 +54,15 @@ public class MainActivity extends AppCompatActivity{
                 startActivity(i);
             }
         });
+
+        final Button csBtn2 = (Button) findViewById(R.id.csBtn2);
+        csBtn2.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                IntentIntegrator integrator = new IntentIntegrator(MainActivity.this);
+                integrator.setCaptureActivity(CustomScannerActivity.class);
+                integrator.initiateScan();
+            }
+        });
     }
 
     // Get the results:

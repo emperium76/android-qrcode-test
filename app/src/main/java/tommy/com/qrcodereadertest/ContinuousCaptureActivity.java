@@ -44,7 +44,6 @@ public class ContinuousCaptureActivity extends AppCompatActivity {
 
         @Override
         public void possibleResultPoints(List<ResultPoint> resultPoints) {
-
         }
     };
 

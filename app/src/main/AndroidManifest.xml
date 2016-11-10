@@ -19,8 +19,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:label="Continouse Scan"
+            android:label="Continuous Scan"
             android:name=".ContinuousCaptureActivity" >
+        </activity>
+        <activity
+            android:label="Custom Scan"
+            android:name=".CustomScannerActivity" >
         </activity>
     </application>
 
