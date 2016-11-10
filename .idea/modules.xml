@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QRCodeReaderTest.iml" filepath="$PROJECT_DIR$/QRCodeReaderTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-qrcode-test.iml" filepath="$PROJECT_DIR$/android-qrcode-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
